@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-app-three"
+    }
+  },
+  "defaultProject": "my-app-three",
+  "cli": {
+    "analytics": "c62d057b-7857-4ff9-9eb7-7695adf76690"
+  }
 }

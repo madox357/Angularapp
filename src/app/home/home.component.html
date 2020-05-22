@@ -1,0 +1,15 @@
+<h1>Welcome!</h1>
+
+<div class="play-container">
+    <p>Hello Stranger! You've clicked me <span (click)="countClick()">This many</span> {{ clickCounter }} times.<br>
+      (This actually demonstrates one way data binding taking place inside the machine.)</p>
+</div>
+
+<div class="play-container">
+  <p>
+    <strong>How shall I address you? </strong>
+    <input type="text" [(ngModel)]="name"><br>
+      <strong>Hello </strong> {{ name }}
+      (This part demonstrates two way data binding, I'm using form element to record your name locally.)
+  </p>
+</div>
